@@ -54,8 +54,8 @@ export const MovesTable = ({ moves }: props) => {
   }
 
   return (
-    <Paper sx={{ bgcolor: "transparent" }}>
-      <TableContainer>
+    <Paper sx={{ bgcolor: "transparent", width: "100%" }}>
+      <TableContainer sx={{ overflowX: "scroll" }}>
         <Table sx={{ bgcolor: "none", border: "1px solid black" }}>
           <TableHead
             sx={{

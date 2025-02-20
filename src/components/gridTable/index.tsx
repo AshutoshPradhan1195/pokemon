@@ -13,7 +13,7 @@ export const GridTable = ({ isFetching, isLoading, results }: props) => {
       {isFetching || isLoading ? (
         <PulsingDataGrid />
       ) : (
-        <div className=" grid sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 sm:gap-x-5 gap-5 xl:gap-x-5  ">
+        <div className=" grid sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 sm:gap-x-10 gap-10 xl:gap-x-10 w-full  ">
           {results?.map((pokemon) => {
             const urlId = pokemon.url.split("/")[6];
 

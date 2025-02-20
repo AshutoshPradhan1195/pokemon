@@ -3,12 +3,11 @@ import { Box } from "@mui/material";
 export const PulsingDataGrid = () => {
   return (
     <Box>
-      <Box display={"grid"} gridTemplateColumns={"1fr 1fr 1fr 1fr"} gap={5}>
+      <div className=" grid sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 sm:gap-x-5 gap-5 xl:gap-x-5  ">
         {[...Array(20)].map(() => (
           <div className="pulsingPokemonCard skeleton"></div>
         ))}
-        <Box />
-      </Box>
+      </div>
     </Box>
   );
 };

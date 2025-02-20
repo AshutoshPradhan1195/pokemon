@@ -46,10 +46,10 @@ a:hover {
 }
 
 .pokemonCard {
-  width: 300px;
+  width: "100%";
   border: 1px solid;
   border-radius: 30px;
-  height: 330px;
+  height: "100%";
   background-color: "whitesmoke";
   display: "flex";
   flex-direction: "column";

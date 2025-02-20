@@ -60,7 +60,7 @@ export const DetailPage = () => {
     return (
       <>
         <div className="flex flex-row gap-1  sm:hidden ">
-          <div className={`w-20 text-left ${colors[ind]} p-1`}>
+          <div className={`w-24 text-left ${colors[ind]} p-1`}>
             <Typography>
               {capitalizeFirstLetterOfEachWord(stat.stat.name)}:
             </Typography>
@@ -83,7 +83,7 @@ export const DetailPage = () => {
           </div>
         </div>
         <div className=" flex-row gap-1  hidden sm:flex ">
-          <div className={`w-20 text-left ${colors[ind]} p-1`}>
+          <div className={`w-24 text-left ${colors[ind]} p-1`}>
             <Typography>
               {capitalizeFirstLetterOfEachWord(stat.stat.name)}:
             </Typography>
